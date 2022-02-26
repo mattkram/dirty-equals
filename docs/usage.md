@@ -99,7 +99,7 @@ def test_partial_dict():
 1. For simplicity we've hardcoded `id` here, but in a test it could be any positive int, 
    hence why we need `IsPositiveInt()`
 
-Here's an except from the output of `pytest -vv` show the error details:
+Here's an excerpt from the output of `pytest -vv` show the error details:
 
 ```txt title="pytest output"
 E         Common items:
